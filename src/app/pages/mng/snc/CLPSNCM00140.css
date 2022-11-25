@@ -1,0 +1,63 @@
+.CLPSNCM00130 .p-confirm-dialog{
+    width:800px !important; 
+}
+.popupContents .treeContainer .treeLeftContainer{
+    width:300px;
+}
+.p-datatable.approvalList tr th, 
+.p-datatable.approvalList tr td {
+    text-align: center;
+}
+.p-datatable.approvalList tr th:first-child {
+    width: 2%;
+    color:gray;
+}
+.p-datatable.approvalList tr th:nth-child(2) {
+    width: 3%;
+}
+.p-datatable.approvalList tr th:nth-child(3) {
+    width: 7%;
+}
+.p-datatable.approvalList tr th:nth-child(4) {
+    width: 9%;
+}
+.p-datatable.approvalList tr th:nth-child(5) {
+    width: 19%;
+}
+.p-datatable.approvalList tr th:nth-child(6) {
+    width: 15%;
+}
+.p-datatable.approvalList tr th:nth-child(7) {
+    width: 15%;
+}
+.p-datatable.approvalList tr th:nth-child(8) {
+    width: 15%;
+}
+.p-datatable.approvalList tr th:nth-child(9) {
+    width: 15%;
+}
+.request {
+     display: flex;
+     align-items: flex-start;
+     gap:20px;
+}
+.request .view-container  {
+    margin-top: 0;
+    flex: 1;
+}
+.request .view-container .cld-table{
+    width:100%;
+}
+.request .requestTb {
+    width:300px;
+    
+}
+.request .requestTb th,
+.request .requestTb td {
+    text-align: center; 
+    border: 1px solid var(--global-border-color);   
+}
+.request .requestTb td .color-primary {
+    color:var(--brand-primary);
+    font-weight: 500;
+}

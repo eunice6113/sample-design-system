@@ -1,0 +1,35 @@
+@import url(../../../../node_modules/sample-design-token/src/styles.css);
+
+.mainContainer {
+    /* padding-top: 55px; */
+    display: flex;
+    width: 100%;
+    min-width: calc(1410px - 220px);
+}
+
+.mainContainer .lnbContainer {
+    position: relative;
+    top:0;
+    left:0;
+    top:0;
+    left:0;
+    box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.1);
+}
+
+body.theme-dark .pageContainer {
+    background: #454545;
+}
+
+.pageContainer {
+    position: relative;
+    top:0;
+    left:0;
+    width: 100%;
+    /* max-width: 1180px; */
+    /* max-width: 1440px; */
+    padding-bottom: 20px;
+}
+
+.p-panelmenu .p-panelmenu-content {
+    background: transparent !important;
+}

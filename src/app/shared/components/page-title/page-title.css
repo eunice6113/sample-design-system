@@ -1,0 +1,33 @@
+.pageTitleContainer {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 55px;
+    /* border-bottom: 1px solid #E6E6E6; */
+    border-bottom: 1px solid var(--global-border-color);
+    align-items: center;
+    padding:0 20px;
+}
+.pageTitleContainer .pageTitle{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width:1180px;
+  margin: 0 auto;
+}
+.pageTitleContainer h1 {
+    font-size: 24px;
+}
+
+/* not working */
+.p-menubar .p-menubar-root-list > .p-menuitem.p-menuitem-active > .p-menuitem-link,
+.p-menubar .p-menubar-root-list > .p-menuitem.p-menuitem-active > .p-menuitem-link:not(.p-disabled):hover {
+  background: #EEF2FF;
+}
+.p-menubar .p-menubar-root-list > .p-menuitem.p-menuitem-active > .p-menuitem-link .p-menuitem-text,
+.p-menubar .p-menubar-root-list > .p-menuitem.p-menuitem-active > .p-menuitem-link:not(.p-disabled):hover .p-menuitem-text {
+  color: var(--primary-color) !important;
+}

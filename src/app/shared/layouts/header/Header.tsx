@@ -27,10 +27,6 @@ const Header: React.FC<IProps> = ({handleOpen, children}) => {
         }
     }
 
-    let userAccessInfo = `YYYY.MM.DD HH:MM:SS`
-
-    let userName = '홍길동'
-
     return(
     <div className='customHeader'>
         <div className="headerInnerContents">
@@ -38,18 +34,10 @@ const Header: React.FC<IProps> = ({handleOpen, children}) => {
                     onClick={handleOpen} />
 
             <Link to='/' className="logoTitle">
-                <img className="ibkLogo" src={logo} alt='클라우드 포털 관리자' />
-                <span className="portalName">Cloud Portal 관리자</span>
+                <img className="ibkLogo" src={logo} alt='클라우드 포털 디자인 시스템' />
+                <span className="portalName">Cloud Portal Design System</span>
             </Link>
-            {/* {children} */}
-
             <InputSwitch className="ml10" checked={theme} onChange={handleTheme} />
-
-            <span className="accessInfo">최근 접속 {userAccessInfo}</span>
-            <span className="profile ml8">
-                <i className="pi pi-user" />
-            </span>
-            <span>{userName}</span>
         </div>
         
     </div>

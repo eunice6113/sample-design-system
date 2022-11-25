@@ -16,7 +16,6 @@ import adminRoutes from './app/routes/admin-routes';
 function App() {
   const routes = useRoutes(adminRoutes)
 
-
   return (
     <>
     <ConfirmDialog />

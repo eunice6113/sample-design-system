@@ -1,6 +1,7 @@
 import { Button } from "primereact";
 import * as React from "react";
 import { BasePage } from "../../shared/components/base/BasePage";
+import ClipboardCopy from "../../shared/components/clipboard-copy/ClipboardCopy";
 import './ui-guide.css';
 
 const ButtonGuide: React.FC = () => {
@@ -8,14 +9,18 @@ const ButtonGuide: React.FC = () => {
     const btnClick = () => {
         alert(0)
     }
-
     return(
     <BasePage>
 
         <h3>primary</h3>
-        <Button label='조회' />
+        <Button label='조회' onClick={btnClick} />
+        <ClipboardCopy copyText={`<Button label='조회' onClick={btnClick} />`} />
+
         <Button label='조회' disabled />
+        <ClipboardCopy copyText={`<Button label='조회' disabled />`} />
+
         <Button label='조회' icon='pi pi-refresh' />
+        <ClipboardCopy copyText={`<Button label='조회' icon='pi pi-refresh' />`} />
 
         <h3>secondary</h3>
         <Button className='secondary' label='조회' onClick={btnClick} />

@@ -104,51 +104,10 @@ const CLPBWSM97220 = Loadable(lazy(() => import('../pages/mng/cpc/bws/CLPBWSM972
 const CLPBWSM97320 = Loadable(lazy(() => import('../pages/mng/cpc/bws/CLPBWSM97320')));
 
 
-
-//운영 관리(크로센트) ==================================================================================
-/*
-사이트 관리 -------------------------
-
-CLPCTFM92510 자격증명 관리
-CLPCTFM92620 자격증명 관리 상세
-
-CLPCTFM92700 자격증명 발급
-CLPCTFM92800 자격증명 갱신
-
-CLPACTM92910 접근토큰 발급 관리
-CLPACTM93020 접근토큰 발급 관리 상세 
-
-CLPACTM93100 접근토큰 발급
-CLPACTM93200 접근토큰 갱신
-
-
-요청관리 ------------
-
-CLPSVGM04910 서비스그룹 요청 목록
-CLPSVGM05020 서비스그룹 요청 상세
-CLPSVGM05621 서비스그룹 상세
-
-CLPRSRM05110 자원 요청 목록
-CLPRSRM05220 자원 요청 상세
-
-CLPRSQM05300 자원 할당량 관리
-
-CLPRSQM05410 자원 청구 코드 목록
-
-CLPRSQM05510 자원 목록
-*/
-
-
 const Error = Loadable(lazy(() => import('../pages/auth/Error')));
-
-const loaderFunc = () => { return 0}
 
 // Routes ================================================================
 const adminRoutes = [
-  // {
-  //   path: 'callback',
-  //   element: <Callback />
-  // },
   {
     path: '/',
     element: <Navigate to='/man' />,

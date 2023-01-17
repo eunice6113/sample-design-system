@@ -1,19 +1,18 @@
 .pageTitleContainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     box-sizing: border-box;
     width: 100%;
     height: 60px;
     left: 0px;
     top: 55px;
-    /* border-bottom: 1px solid #E6E6E6; */
     border-bottom: 1px solid var(--global-border-color);
     align-items: center;
     padding:0 20px;
 }
 .pageTitleContainer .pageTitle{
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   width:1180px;
   margin: 0 auto;

@@ -36,12 +36,14 @@ const ClipboardCopy: React.FC<IProps> = ({copyText, rows = 1}) => {
   }
 
   return (
-    <div className='copyCodeBox'>
-      {/* <input type="text" value={copyText} readOnly /> */}
-      <textarea value={copyText} readOnly className='copyTextarea' rows={rows} />
-      <button onClick={handleCopyClick} className='copyBtn'>
-        <span>{isCopied ? 'Copied!' : 'Copy'}</span>
-      </button>
+    <div className='sources'>
+      <h2>Source</h2>
+      <div className='copyCodeBox'>
+        <textarea value={copyText} readOnly className='copyTextarea' rows={rows} />
+        <button onClick={handleCopyClick} className='copyBtn'>
+          <span>{isCopied ? 'Copied!' : 'Copy'}</span>
+        </button>
+      </div>
     </div>
   );
 }

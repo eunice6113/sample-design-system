@@ -259,7 +259,7 @@ const TableGuide: React.FC = () => {
     return(
     <BasePage>
         <div className='previewBox'>
-            <h3>Basic</h3>
+            <h3>View</h3>
         
             {/* 등록자 정보 */}
             <ViewTemplate {...authorInfo} />
@@ -286,6 +286,7 @@ const TableGuide: React.FC = () => {
             />
         </div>
 
+        <h2 className='mb10'>Source</h2>
         <TabView>
             <TabPanel header='TableGuide.tsx'>
                 <ClipboardCopy showTitle={false} rows={295} copyText={`
@@ -548,7 +549,7 @@ const TableGuide: React.FC = () => {
 
     return(
     <BasePage>
-        <h3>Basic</h3>
+        <h3>View</h3>
     
         {/* 등록자 정보 */}
         <ViewTemplate {...authorInfo} />

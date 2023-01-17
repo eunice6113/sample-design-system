@@ -1,7 +1,7 @@
-import { Button } from "primereact";
-import * as React from "react";
-import { BasePage } from "../../shared/components/base/BasePage";
-import ClipboardCopy from "../../shared/components/clipboard-copy/ClipboardCopy";
+import * as React from 'react';
+import { Button } from 'primereact';
+import { BasePage } from '../../shared/components/base/BasePage';
+import ClipboardCopy from '../../shared/components/clipboard-copy/ClipboardCopy';
 import './ui-guide.css';
 
 const ButtonGuide: React.FC = () => {
@@ -12,7 +12,7 @@ const ButtonGuide: React.FC = () => {
     
     return(
     <BasePage>
-        <div className="previewBox">
+        <div className='previewBox'>
             <h3>Primary</h3>
             <Button label='조회' onClick={handleClick} />
             <Button label='조회' onClick={handleClick} disabled />
@@ -45,8 +45,9 @@ const ButtonGuide: React.FC = () => {
         </div>
 
         <ClipboardCopy rows={38} copyText={`
-import { Button } from "primereact";
-import * as React from "react";
+import * as React from 'react';
+import { Button } from 'primereact';
+import { BasePage } from '../../shared/components/base/BasePage';
 
 const ButtonGuide: React.FC = () => {
 
@@ -55,7 +56,7 @@ const ButtonGuide: React.FC = () => {
     }
     
     return(
-    <>
+    <BasePage>
         <h3>Primary</h3>
         <Button label='조회' onClick={handleClick} />
         <Button label='조회' onClick={handleClick} disabled />
@@ -77,7 +78,7 @@ const ButtonGuide: React.FC = () => {
         <Button className='lg' onClick={handleClick}>lg 사이즈</Button>
         <Button className='md' onClick={handleClick}>md 사이즈</Button>
         <Button className='sm' onClick={handleClick}>sm 사이즈</Button>
-    </>)
+    </BasePage>)
 }
 export default ButtonGuide;
         `} />

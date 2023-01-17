@@ -1,3 +1,7 @@
 h3 {margin: 30px 0 10px;}
 
 button {margin-right: 10px !important;}
+
+.p-tabview .p-tabview-panels {
+    padding: 0;
+}

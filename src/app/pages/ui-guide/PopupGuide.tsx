@@ -51,7 +51,7 @@ const SelectGuide: React.FC = () => {
             <br/>
             <Button label='확인 버튼만 있는 팝업' onClick={showAlertDialog} />
         </div>
-        <ClipboardCopy rows={53} copyText={`
+        <ClipboardCopy rows={50} copyText={`
 import * as React from 'react';
 import { Button, confirmDialog } from 'primereact';
 import { BasePage } from '../../shared/components/base/BasePage';
@@ -94,11 +94,9 @@ const SelectGuide: React.FC = () => {
 
     return(
     <BasePage>
-        <div className='previewBox'>
-            <Button label='제목이 있는 팝업' onClick={showTitlePopup} />
-            <Button label='제목이 없는 팝업' onClick={showNoTitlePopup} />
-            <Button label='확인 버튼만 있는 팝업' onClick={showAlertDialog} />
-        </div>
+        <Button label='제목이 있는 팝업' onClick={showTitlePopup} />
+        <Button label='제목이 없는 팝업' onClick={showNoTitlePopup} />
+        <Button label='확인 버튼만 있는 팝업' onClick={showAlertDialog} />
     </BasePage>)
 }
 export default SelectGuide; `} />

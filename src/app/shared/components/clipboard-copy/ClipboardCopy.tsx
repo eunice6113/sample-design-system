@@ -4,9 +4,10 @@ import './clipboard-copy.css';
 interface IProps {
     copyText: string;
     rows?: number;
+    showTitle?: boolean;
 }
 
-const ClipboardCopy: React.FC<IProps> = ({copyText, rows = 1}) => {
+const ClipboardCopy: React.FC<IProps> = ({copyText, rows = 1, showTitle = true}) => {
 
     const [isCopied, setIsCopied] = React.useState(false);
 
@@ -36,8 +37,10 @@ const ClipboardCopy: React.FC<IProps> = ({copyText, rows = 1}) => {
   }
 
   return (
-    <div className='sources'>
-      <h2>Source</h2>
+    <div className={`sources ${showTitle ? '':'mt0'}`}>
+      {
+        showTitle && <h2>Source</h2>
+      }
       <div className='copyCodeBox'>
         <textarea value={copyText} readOnly className='copyTextarea' rows={rows} />
         <button onClick={handleCopyClick} className='copyBtn'>

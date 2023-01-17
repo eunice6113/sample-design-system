@@ -25,7 +25,7 @@ const LNB: React.FC<IProps> = ({open, children}) => {
         {
             label:'UI',
             visible: true,
-            expanded: curLocation === 'ui',
+            expanded: true,
             items:[
                 {
                     label:'CSS Guide',

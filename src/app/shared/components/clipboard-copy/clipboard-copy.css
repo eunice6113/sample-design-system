@@ -14,12 +14,14 @@
     color: #fff;
     background-color: transparent;
     width: 100%;
+    height: auto;
     border: 0 none;
+    resize: none;
 }
 
 .copyCodeBox .copyBtn {
     position: absolute;
-    top:0;
+    top:5px;
     right:0; 
     background-color: #777;
     padding:5px 10px;

@@ -3,9 +3,10 @@ import './clipboard-copy.css';
 
 interface IProps {
     copyText: string;
+    rows?: number;
 }
 
-const ClipboardCopy: React.FC<IProps> = ({copyText}) => {
+const ClipboardCopy: React.FC<IProps> = ({copyText, rows = 1}) => {
 
     const [isCopied, setIsCopied] = React.useState(false);
 
@@ -37,7 +38,7 @@ const ClipboardCopy: React.FC<IProps> = ({copyText}) => {
   return (
     <div className='copyCodeBox'>
       {/* <input type="text" value={copyText} readOnly /> */}
-      <textarea value={copyText} readOnly className='copyTextarea' />
+      <textarea value={copyText} readOnly className='copyTextarea' rows={rows} />
       <button onClick={handleCopyClick} className='copyBtn'>
         <span>{isCopied ? 'Copied!' : 'Copy'}</span>
       </button>

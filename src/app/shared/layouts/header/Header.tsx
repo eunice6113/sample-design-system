@@ -37,7 +37,7 @@ const Header: React.FC<IProps> = ({handleOpen, children}) => {
                 <img className="ibkLogo" src={logo} alt='클라우드 포털 디자인 시스템' />
                 <span className="portalName">Cloud Portal Design System</span>
             </Link>
-            <InputSwitch className="ml10" checked={theme} onChange={handleTheme} />
+            {/* <InputSwitch className="ml10" checked={theme} onChange={handleTheme} /> */}
         </div>
         
     </div>

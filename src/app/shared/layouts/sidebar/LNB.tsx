@@ -22,11 +22,11 @@ const LNB: React.FC<IProps> = ({open, children}) => {
     }
 
     const items = [
-        {
-            label:'UI',
-            visible: true,
-            expanded: true,
-            items:[
+        // {
+        //     label:'UI',
+        //     visible: true,
+        //     expanded: true,
+        //     items:[
                 {
                     label:'CSS Guide',
                     url: '/ui/guide',
@@ -92,10 +92,8 @@ const LNB: React.FC<IProps> = ({open, children}) => {
                     url: '/ui/upload',
                     className: getClsName('/ui/upload')
                 },
-                
-            ]
-        },
-        
+        //     ]
+        // },
     ];
 
     React.useEffect(() => {

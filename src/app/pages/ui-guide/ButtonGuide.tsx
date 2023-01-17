@@ -80,8 +80,7 @@ const ButtonGuide: React.FC = () => {
         <Button className='sm' onClick={handleClick}>sm 사이즈</Button>
     </BasePage>)
 }
-export default ButtonGuide;
-        `} />
+export default ButtonGuide;`} />
     </BasePage>)
 }
 export default ButtonGuide;

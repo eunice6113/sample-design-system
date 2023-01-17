@@ -15,7 +15,7 @@ const InputGuide: React.FC = () => {
     <BasePage>
         <div className='previewBox'>
             <h3>Basic</h3>
-            <InputText className='' placeholder='제목을 입력해주세요' value={title} onChange={(e) => setTitle(e.target.value)} />
+            <InputText placeholder='제목을 입력해주세요' value={title} onChange={(e) => setTitle(e.target.value)} />
 
             <h3>Textarea</h3>
             <InputTextarea value={content} onChange={(e) => setContent(e.target.value)} rows={5} cols={30} />
@@ -42,7 +42,7 @@ const InputGuide: React.FC = () => {
     return(
     <BasePage>
         <h3>Basic</h3>
-        <InputText className='' placeholder='제목을 입력해주세요' value={title} onChange={(e) => setTitle(e.target.value)} />
+        <InputText placeholder='제목을 입력해주세요' value={title} onChange={(e) => setTitle(e.target.value)} />
 
         <h3>Textarea</h3>
         <InputTextarea value={content} onChange={(e) => setContent(e.target.value)} rows={5} cols={30} />

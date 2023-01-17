@@ -23,7 +23,7 @@ interface PopupContent {
     files?: File[];
 }
 
-const TableGuide: React.FC = () => {
+const TableViewGuide: React.FC = () => {
 
     const { goPage } = useBasePage()
 
@@ -288,7 +288,7 @@ const TableGuide: React.FC = () => {
 
         <h2 className='mb10'>Source</h2>
         <TabView>
-            <TabPanel header='TableGuide.tsx'>
+            <TabPanel header='TableViewGuide.tsx'>
                 <ClipboardCopy showTitle={false} rows={295} copyText={`
 import * as React from 'react';
 import { Button, Calendar, InputText, InputTextarea, RadioButton } from 'primereact';
@@ -314,7 +314,7 @@ interface PopupContent {
     files?: File[];
 }
 
-const TableGuide: React.FC = () => {
+const TableViewGuide: React.FC = () => {
 
     const { goPage } = useBasePage()
 
@@ -576,7 +576,7 @@ const TableGuide: React.FC = () => {
         />
     </BasePage>)
 }
-export default TableGuide;
+export default TableViewGuide;
                 `} />
 
             </TabPanel>
@@ -715,4 +715,4 @@ export default ViewButtonsTemplate;
         </TabView>
     </BasePage>)
 }
-export default TableGuide;
+export default TableViewGuide;

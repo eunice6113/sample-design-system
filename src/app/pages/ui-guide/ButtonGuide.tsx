@@ -11,7 +11,7 @@ const ButtonGuide: React.FC = () => {
     }
     
     return(
-    <BasePage>
+    <BasePage className='buttonGuide'>
         <div className='previewBox'>
             <h3>Primary</h3>
             <Button label='조회' onClick={handleClick} />

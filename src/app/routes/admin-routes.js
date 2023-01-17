@@ -19,7 +19,8 @@ const ButtonGuide = Loadable(lazy(() => import('../pages/ui-guide/ButtonGuide'))
 const InputGuide = Loadable(lazy(() => import('../pages/ui-guide/InputGuide')));
 const SelectGuide = Loadable(lazy(() => import('../pages/ui-guide/SelectGuide')));
 const PopupGuide = Loadable(lazy(() => import('../pages/ui-guide/PopupGuide')));
-const TableGuide = Loadable(lazy(() => import('../pages/ui-guide/TableGuide')));
+const TableListGuide = Loadable(lazy(() => import('../pages/ui-guide/TableListGuide')));
+const TableViewGuide = Loadable(lazy(() => import('../pages/ui-guide/TableViewGuide')));
 const ChartGuide = Loadable(lazy(() => import('../pages/ui-guide/ChartGuide')));
 const UploadGuide = Loadable(lazy(() => import('../pages/ui-guide/UploadGuide')));
 const NoDataGuide = Loadable(lazy(() => import('../pages/ui-guide/NoDataGuide')));
@@ -146,9 +147,14 @@ const adminRoutes = [
             element: <PopupGuide />
           },
           {
-            path: 'table', 
-            name: 'Table Guide', 
-            element: <TableGuide />
+            path: 'table-view/:id', 
+            name: 'Table View Guide', 
+            element: <TableViewGuide />
+          },
+          {
+            path: 'table-list', 
+            name: 'Table List Guide', 
+            element: <TableListGuide />
           },
           {
             path: 'excel', 

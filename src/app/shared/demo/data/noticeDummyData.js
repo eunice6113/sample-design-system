@@ -5,7 +5,7 @@ export const noticeDummyData = [
         type: '[공지사항]',
         subject: '제목입니다',
         attach: <i className="pi pi-paperclip"></i>,
-        author: '신재문',
+        author: '홍길동',
         hit: 100,
         registerDate: '2022-10-15'
     },
@@ -14,7 +14,7 @@ export const noticeDummyData = [
         type: '[공지사항]',
         subject: '제목입니다',
         attach: <i className="pi pi-paperclip"></i>,
-        author: '신재문',
+        author: '홍길동',
         hit: 100,
         registerDate: '2022-10-15'
     },
@@ -23,7 +23,7 @@ export const noticeDummyData = [
         type: '[공지사항]',
         subject: '제목입니다',
         attach: <i className="pi pi-paperclip"></i>,
-        author: '신재문',
+        author: '홍길동',
         hit: 100,
         registerDate: '2022-10-15'
     },
@@ -32,7 +32,7 @@ export const noticeDummyData = [
         type: '[공지사항]',
         subject: '제목입니다',
         attach: <i className="pi pi-paperclip"></i>,
-        author: '신재문',
+        author: '홍길동',
         hit: 100,
         registerDate: '2022-10-15'
     },
@@ -41,7 +41,7 @@ export const noticeDummyData = [
         type: '[공지사항]',
         subject: '제목입니다',
         attach: <i className="pi pi-paperclip"></i>,
-        author: '신재문',
+        author: '홍길동',
         hit: 100,
         registerDate: '2022-10-15'
     },
@@ -50,7 +50,7 @@ export const noticeDummyData = [
         type: '[공지사항]',
         subject: '제목입니다',
         attach: <i className="pi pi-paperclip"></i>,
-        author: '신재문',
+        author: '홍길동',
         hit: 100,
         registerDate: '2022-10-15'
     },
@@ -59,7 +59,7 @@ export const noticeDummyData = [
         type: '[공지사항]',
         subject: '제목입니다',
         attach: <i className="pi pi-paperclip"></i>,
-        author: '신재문',
+        author: '홍길동',
         hit: 100,
         registerDate: '2022-10-15'
     },
@@ -68,7 +68,7 @@ export const noticeDummyData = [
         type: '[공지사항]',
         subject: '제목입니다',
         attach: <i className="pi pi-paperclip"></i>,
-        author: '신재문',
+        author: '홍길동',
         hit: 100,
         registerDate: '2022-10-15'
     },
@@ -77,7 +77,7 @@ export const noticeDummyData = [
         type: '[공지사항]',
         subject: '제목입니다',
         attach: <i className="pi pi-paperclip"></i>,
-        author: '신재문',
+        author: '홍길동',
         hit: 100,
         registerDate: '2022-10-15'
     },
@@ -86,7 +86,7 @@ export const noticeDummyData = [
         type: '[공지사항]',
         subject: '제목입니다',
         attach: <i className="pi pi-paperclip"></i>,
-        author: '신재문',
+        author: '홍길동',
         hit: 100,
         registerDate: '2022-10-15'
     },
@@ -95,7 +95,7 @@ export const noticeDummyData = [
         type: '[공지사항]',
         subject: '제목입니다',
         attach: <i className="pi pi-paperclip"></i>,
-        author: '신재문',
+        author: '홍길동',
         hit: 100,
         registerDate: '2022-10-15'
     },
@@ -104,7 +104,7 @@ export const noticeDummyData = [
         type: '[공지사항]',
         subject: '제목입니다',
         attach: <i className="pi pi-paperclip"></i>,
-        author: '신재문',
+        author: '홍길동',
         hit: 100,
         registerDate: '2022-10-15'
     },
@@ -113,7 +113,7 @@ export const noticeDummyData = [
         type: '[공지사항]',
         subject: '제목입니다',
         attach: <i className="pi pi-paperclip"></i>,
-        author: '신재문',
+        author: '홍길동',
         hit: 100,
         registerDate: '2022-10-15'
     },
@@ -122,7 +122,7 @@ export const noticeDummyData = [
         type: '[공지사항]',
         subject: '제목입니다',
         attach: <i className="pi pi-paperclip"></i>,
-        author: '신재문',
+        author: '홍길동',
         hit: 100,
         registerDate: '2022-10-15'
     },
@@ -131,7 +131,7 @@ export const noticeDummyData = [
         type: '[공지사항]',
         subject: '제목입니다',
         attach: <i className="pi pi-paperclip"></i>,
-        author: '신재문',
+        author: '홍길동',
         hit: 100,
         registerDate: '2022-10-15'
     },
@@ -140,7 +140,7 @@ export const noticeDummyData = [
         type: '[공지사항]',
         subject: '제목입니다',
         attach: <i className="pi pi-paperclip"></i>,
-        author: '신재문',
+        author: '홍길동',
         hit: 100,
         registerDate: '2022-10-15'
     },
@@ -149,7 +149,7 @@ export const noticeDummyData = [
         type: '[공지사항]',
         subject: '제목입니다',
         attach: <i className="pi pi-paperclip"></i>,
-        author: '신재문',
+        author: '홍길동',
         hit: 100,
         registerDate: '2022-10-15'
     },
@@ -158,7 +158,7 @@ export const noticeDummyData = [
         type: '[공지사항]',
         subject: '제목입니다',
         attach: <i className="pi pi-paperclip"></i>,
-        author: '신재문',
+        author: '홍길동',
         hit: 100,
         registerDate: '2022-10-15'
     },
@@ -167,7 +167,7 @@ export const noticeDummyData = [
         type: '[공지사항]',
         subject: '제목입니다',
         attach: <i className="pi pi-paperclip"></i>,
-        author: '신재문',
+        author: '홍길동',
         hit: 100,
         registerDate: '2022-10-15'
     },
@@ -176,7 +176,7 @@ export const noticeDummyData = [
         type: '[공지사항]',
         subject: '제목입니다',
         attach: <i className="pi pi-paperclip"></i>,
-        author: '신재문',
+        author: '홍길동',
         hit: 100,
         registerDate: '2022-10-15'
     },
@@ -185,7 +185,7 @@ export const noticeDummyData = [
         type: '[공지사항]',
         subject: '제목입니다',
         attach: <i className="pi pi-paperclip"></i>,
-        author: '신재문',
+        author: '홍길동',
         hit: 100,
         registerDate: '2022-10-15'
     },
@@ -194,7 +194,7 @@ export const noticeDummyData = [
         type: '[공지사항]',
         subject: '제목입니다',
         attach: <i className="pi pi-paperclip"></i>,
-        author: '신재문',
+        author: '홍길동',
         hit: 100,
         registerDate: '2022-10-15'
     },
@@ -203,7 +203,7 @@ export const noticeDummyData = [
         type: '[공지사항]',
         subject: '제목입니다',
         attach: <i className="pi pi-paperclip"></i>,
-        author: '신재문',
+        author: '홍길동',
         hit: 100,
         registerDate: '2022-10-15'
     },
@@ -212,7 +212,7 @@ export const noticeDummyData = [
         type: '[공지사항]',
         subject: '제목입니다',
         attach: <i className="pi pi-paperclip"></i>,
-        author: '신재문',
+        author: '홍길동',
         hit: 100,
         registerDate: '2022-10-15'
     },
@@ -221,7 +221,7 @@ export const noticeDummyData = [
         type: '[공지사항]',
         subject: '제목입니다',
         attach: <i className="pi pi-paperclip"></i>,
-        author: '신재문',
+        author: '홍길동',
         hit: 100,
         registerDate: '2022-10-15'
     },
@@ -230,7 +230,7 @@ export const noticeDummyData = [
         type: '[공지사항]',
         subject: '제목입니다',
         attach: <i className="pi pi-paperclip"></i>,
-        author: '신재문',
+        author: '홍길동',
         hit: 100,
         registerDate: '2022-10-15'
     },
@@ -239,7 +239,7 @@ export const noticeDummyData = [
         type: '[공지사항]',
         subject: '제목입니다',
         attach: <i className="pi pi-paperclip"></i>,
-        author: '신재문',
+        author: '홍길동',
         hit: 100,
         registerDate: '2022-10-15'
     },
@@ -248,7 +248,7 @@ export const noticeDummyData = [
         type: '[공지사항]',
         subject: '제목입니다',
         attach: <i className="pi pi-paperclip"></i>,
-        author: '신재문',
+        author: '홍길동',
         hit: 100,
         registerDate: '2022-10-15'
     },
@@ -257,7 +257,7 @@ export const noticeDummyData = [
         type: '[공지사항]',
         subject: '제목입니다',
         attach: <i className="pi pi-paperclip"></i>,
-        author: '신재문',
+        author: '홍길동',
         hit: 100,
         registerDate: '2022-10-15'
     },

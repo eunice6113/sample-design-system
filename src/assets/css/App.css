@@ -2,6 +2,10 @@
   outline: none;
 }
 
+body {
+  background-color: #fff;
+}
+
 .wHalf {
   width:50%;
 }

@@ -16,11 +16,6 @@ const LNB: React.FC<IProps> = ({open, children}) => {
 
     const getClsName = ( url:string ) => url === pathName ? 'selected' : '';
 
-    //메뉴 필터링
-    const getIsAdmin = () => {
-        return true;
-    }
-
     const items = [
         // {
         //     label:'UI',
@@ -29,8 +24,13 @@ const LNB: React.FC<IProps> = ({open, children}) => {
         //     items:[
                 {
                     label:'CSS Guide',
-                    url: '/ui/guide',
-                    className: getClsName('/ui/guide')
+                    url: '/ui/css',
+                    className: getClsName('/ui/css')
+                },
+                {
+                    label:'Layout Guide',
+                    url: '/ui/layout',
+                    className: getClsName('/ui/layout')
                 },
                 {
                     label:'Button',

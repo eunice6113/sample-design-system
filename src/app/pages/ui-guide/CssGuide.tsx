@@ -4,8 +4,26 @@ import './ui-guide.css';
 
 const CssGuide: React.FC = () => {
 
-    const csss = `
-var(--space-xxl) : 50px;
+    const freCss = `var(--global-text-color) : #333333;
+var(--global-bg-color) : #dfe0e3;
+var(--global-disabled-color) : #cccccc;
+var(--global-datepicker-input-text-color) : #000000;
+var(--global-border-color) : #e6e6e6;
+var(--global-placeholder-color) : #888888;
+var(--global-link-color) : #145198;
+var(--global-text-muted-color) : #e6e6e6;
+var(--global-disabled-bg-color) : #ffffff;
+var(--global-disabled-icon-color) : #cccccc;
+
+var(--brand-active) : #1d5dc4;
+var(--brand-hover) : #1fa4cc;
+var(--brand-primary) : #1d5dc4;
+var(--brand-secondary) : #f5701c;
+var(--brand-brand-gray) : #cccccc;
+var(--brand-error) : #e22b2b;    
+    `
+
+    const csss = `var(--space-xxl) : 50px;
 var(--space-xl) : 30px;
 var(--space-lg) : 25px;
 var(--space-md) : 20px;
@@ -392,12 +410,32 @@ var(--link-text-on-text-color) : #4881de;
 .d-flex { display: flex !important; }
 .d-inline-block { display: inline-block; }
 .d-block {display: block; }
-
     `
 
     return(
     <BasePage>
-        <div style={{whiteSpace: 'pre'}}>{csss}</div>    
+        <div className='previewBox'>
+            <h3>CSS 작성시 기본적인 부분은 되도록 아래 속성을 이용하여 작업</h3>
+
+            <h3>예시</h3>
+            border: 1px solid var(--global-border-color);<br/>
+            color: var(--brand-primary);
+
+            <h3>속성값 업데이트 하기</h3>
+            
+
+            <h3>플러그인</h3>
+            Visual Studio 에 아래 플러그인들을 추가하고 css 파일을 보면 색상값을 인지하기 쉽습니다<br/>
+            - CoenraadS.brachet-pair-colorizer-2-0.2.4.vsix<br/>
+            - naumovs.color-highlight-2.5.0.vsix
+
+
+            <h3>가장 많이 쓰는 값</h3>
+            <div style={{whiteSpace: 'pre'}}>{freCss}</div>    
+
+            <h3>전체 속성</h3>
+            <div style={{whiteSpace: 'pre'}}>{csss}</div>    
+        </div>
     </BasePage>)
 }
 export default CssGuide;

@@ -412,6 +412,7 @@ var(--link-text-on-text-color) : #4881de;
 .d-block {display: block; }
     `
 
+
     return(
     <BasePage>
         <div className='previewBox'>
@@ -422,13 +423,14 @@ var(--link-text-on-text-color) : #4881de;
             color: var(--brand-primary);
 
             <h3>속성값 업데이트 하기</h3>
-            
+            assets/css/<strong>design-token.css</strong> 파일을 열어서<br/>
+            예를 들어 --brand-primary: black 값을 red 로 변경하게 되면<br/>
+            var(--brand-primary) 를 사용하여 작성된 스타일이 일괄 변화됩니다.
 
             <h3>플러그인</h3>
             Visual Studio 에 아래 플러그인들을 추가하고 css 파일을 보면 색상값을 인지하기 쉽습니다<br/>
             - CoenraadS.brachet-pair-colorizer-2-0.2.4.vsix<br/>
             - naumovs.color-highlight-2.5.0.vsix
-
 
             <h3>가장 많이 쓰는 값</h3>
             <div style={{whiteSpace: 'pre'}}>{freCss}</div>    
